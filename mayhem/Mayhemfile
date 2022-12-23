@@ -1,0 +1,6 @@
+project: python-phonenumbers
+target: phone-fuzz
+
+cmds:
+  - cmd: /fuzz_phone_parsing.py
+    libfuzzer: true
